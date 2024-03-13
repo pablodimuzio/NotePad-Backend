@@ -1,0 +1,7 @@
+# Node BS
+
+node_modules
+
+# SECRETS
+
+.env
