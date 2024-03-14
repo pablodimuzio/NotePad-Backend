@@ -16,7 +16,7 @@ app.use((req, res, next) => {
     next();
 })
 
-app.post("/auth", auth.getNotes);
+app.post("/getNotes", auth.getNotes);
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is listening on port ${process.env.PORT}`)
